@@ -1,5 +1,5 @@
 :root {
-  --bg-gradient: linear-gradient( 135deg, #b5c6db 10%, #b5d6f7 100%);
+  --bg-gradient: linear-gradient( 135deg, #D2866B 10%, #D2968B 100%);
   --text-color: #000000;
 }
 html, body {
@@ -85,6 +85,7 @@ button,
   font-size: 30px;
   text-align: left;
   padding-top: 20px;
+  min-width: 300px;
 }
 .birthdate span {
   width: 47%;
