@@ -1,0 +1,20 @@
+{
+  "name": "elise-declercq",
+  "version": "1.0.0",
+  "description": "Elise Declercq",
+  "main": "index.html",
+  "scripts": {
+    "start": "simplehttpserver & livereload '.' -p 35730 -ee 'json'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/bhamblok/elise.git"
+  },
+  "keywords": [],
+  "author": "@bhamblok",
+  "license": "ISC",
+  "devDependencies": {
+    "livereload": "^0.9.3",
+    "simplehttpserver": "^0.3.0"
+  }
+}
