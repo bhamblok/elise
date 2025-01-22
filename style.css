@@ -22,16 +22,16 @@ body {
   justify-content: center;
   align-content: center;
   z-index: 100;
-  width: calc(100vw - 4em);
-  height: calc(100vh - 10em);
+  width: calc(100dvw - 4em);
+  height: calc(100dvh - 10em);
   padding: 2em 2em 8em 2em;
   text-align: center;
 }
 .install ul {
-  text-align: left;
   margin-top: 0;
-  padding-top: 0;
+  padding: 0;
   line-height: 1.6;
+  list-style: none;
 }
 .install svg {
   stroke: #fefefe;
