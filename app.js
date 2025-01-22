@@ -68,7 +68,7 @@ const updateDate = () => {
   }
   if (cache.weeks !== weeks) {
     if (now < birthDate) {
-      document.querySelector('.years').innerHTML = `<span class="weeks">(... nog</span> <span>${Math.abs(weeks)} ${Math.abs(weeks) === 1 ? 'week' : 'weken'})</span>`;
+      document.querySelector('.years').innerHTML = `<span class="weeks">(... nog &lt;</span> <span>${Math.abs(weeks)} ${Math.abs(weeks) === 1 ? 'week' : 'weken'})</span>`;
     }
     cache.weeks = weeks;
   }
