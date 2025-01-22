@@ -17,8 +17,8 @@
     }
   ],
   "start_url": "/index.html",
-  "background_color": "#D2866B",
+  "background_color": "#dc8860",
   "display": "standalone",
   "scope": "/",
-  "theme_color": "#D2866B"
+  "theme_color": "#dc8860"
 }
